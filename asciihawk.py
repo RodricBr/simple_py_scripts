@@ -1,6 +1,6 @@
 import PIL.Image
 
-# py asciihawk.py
+#py asciihawk.py
 
 print('''
 \t<-+----------------------------+->
@@ -11,7 +11,7 @@ print('''
 ''')
 
 #ASCII Characters to output text
-ascii_char = ['-', '-', ':', ';', ':', 'O', 'o', 'c', 'C', 's', 'S'] # l L, a A
+ascii_char = ['-', '-', ':', ';', ':', 'O', 'o', 'c', 'C', 's', 'S']
 #Default '@', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.'
 
 #Resize image to new width
