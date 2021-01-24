@@ -1,17 +1,16 @@
 import PIL.Image
 
-#py asciihawk.py
-
 print('''
-\t<-+----------------------------+->
+github.com/RodricBr\n
+\t<-#============================#->
 \t  | Image to ASCII Generator   |
 \t  | Not my idea not my script. |
 \t  |       Youtube: Kite        |
-\t<-+----------------------------+->
+\t<-#============================#->
 ''')
 
 #ASCII Characters to output text
-ascii_char = ['-', '-', ':', ';', ':', 'O', 'o', 'c', 'C', 's', 'S']
+ascii_char = [' ', ' ', '.', '-', 'n', 'O', 'o', 's', 'S', 'v', 'V']
 #Default '@', '#', 'S', '%', '?', '*', '+', ';', ':', ',', '.'
 
 #Resize image to new width
