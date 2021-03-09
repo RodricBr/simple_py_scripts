@@ -21,9 +21,6 @@ except:
             f'{a_ex}and try again.{c_end}')
     raise SystemExit
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-v', '--verbose', help='Increase output verbosity (Not implemented yet)', action='store_true')
-parser.add_argument('-h', '--help', help='This is help command' )
 
 os.system('clear') #Limpa o bash
 
@@ -90,7 +87,6 @@ def scan_port(ipaddress, port):
         pass
         # print(f'{vm_ex}[-] Port {c_end}' + str(port) + f' {vm_ex}is closed{c_end}') Mostrar portas abertas
 
-# port_range = int(input('[+] Set port range:\n>>> '))
 try:
     targets = input(f'{cy_ex}[+] Insert the Target/s{c_end} {a_ex}(Split Targets using ","){c_end}{cy_ex}:\n>>> {c_end}')
 except KeyboardInterrupt:
