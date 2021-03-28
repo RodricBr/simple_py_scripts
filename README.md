@@ -3,12 +3,12 @@ Personal use, simple projects for testing and daily use. Not meant to be complex
 ## Requirements;
 socket  Library<br>
 IPy  Library<br>
-colorama  Library
-urllib Library
-codecs Library
-requets Library
-mmh3 Library
-io Library
+colorama  Library<br>
+urllib Library<br>
+codecs Library<br>
+requets Library<br>
+mmh3 Library<br>
+io Library<br>
 
 
 ## Inspiration for porthawk;
