@@ -75,7 +75,7 @@ def scan_port(ipaddress, port):
         try:
             banner = get_banner(sock)
             try:
-                print(f'{vd_ex}[+] Port {c_end}' + str(port) + f' {vd_ex}is open. Banner ──› {c_end}' + str(banner.decode().strip('\n'))) #Banner
+                print(f'{vd_ex}[+] Port {c_end}' + str(port) + f' {vd_ex}/tcp is open. Banner ──› {c_end}' + str(banner.decode().strip('\n'))) #Banner
             except KeyboardInterrupt:
                 print(f'\n\t{a_ex}Keyboard Interrupt... Bye!{c_end}\n')
         except:
@@ -85,7 +85,7 @@ def scan_port(ipaddress, port):
                 print(f'\n\t{a_ex}Keyboard Interrupt... Bye!{c_end}\n')
     except:
         pass
-        # print(f'{vm_ex}[-] Port {c_end}' + str(port) + f' {vm_ex}is closed{c_end}') Mostrar portas abertas
+        # print(f'{vm_ex}[-] Port {c_end}' + str(port) + f' {vm_ex}is closed{c_end}') Mostrar portas fechadas
 
 try:
     targets = input(f'{cy_ex}[+] Insert the Target/s{c_end} {a_ex}(Split Targets using ","){c_end}{cy_ex}:\n>>> {c_end}')
